@@ -24,34 +24,34 @@ function drawLineChart() {
       type: "line",
       data: {
         labels: [
-          "January",
-          "February",
-          "March",
-          "April",
-          "May",
-          "June",
-          "July"
+          "Janvier",
+          "Février",
+          "Mars",
+          "Avril",
+          "Peut",
+          "Juin",
+          "Juillet"
         ],
         datasets: [
           {
-            label: "Latest Hits",
-            data: [88, 68, 79, 57, 50, 55, 70],
+            label: "Visite du site",
+            data: [8800, 6800, 7900, 5700, 5000, 5500, 7000],
             fill: false,
             borderColor: "rgb(75, 192, 192)",
             cubicInterpolationMode: "monotone",
             pointRadius: 0
           },
           {
-            label: "Popular Hits",
-            data: [33, 45, 37, 21, 55, 74, 69],
+            label: "Message envoyé",
+            data: [330, 450, 370, 210, 550, 740, 690],
             fill: false,
             borderColor: "rgba(255,99,132,1)",
             cubicInterpolationMode: "monotone",
             pointRadius: 0
           },
           {
-            label: "Featured",
-            data: [44, 19, 38, 46, 85, 66, 79],
+            label: "Commande passée",
+            data: [440, 190, 380, 460, 850, 660, 790],
             fill: false,
             borderColor: "rgba(153, 102, 255, 1)",
             cubicInterpolationMode: "monotone",
@@ -105,7 +105,7 @@ function drawBarChart() {
     configBar = {
       type: "horizontalBar",
       data: {
-        labels: ["Red", "Aqua", "Green", "Yellow", "Purple", "Orange", "Blue"],
+        labels: ["Switch zone de stockage", "Switch pour le bureau", "Serveur", "NAS", "Routeur-1", "Routeur-WIFI", "Routeur-WIFI"],
         datasets: [
           {
             label: "# of Hits",
@@ -159,15 +159,15 @@ function drawPieChart() {
       data: {
         datasets: [
           {
-            data: [18.24, 6.5, 9.15],
+            data: [20.5, 1.5, 15.15],
             backgroundColor: ["#F7604D", "#4ED6B8", "#A8D582"],
             label: "Storage"
           }
         ],
         labels: [
-          "Used Storage (18.240GB)",
+          "Used Storage (20.50TB)",
           "System Storage (6.500GB)",
-          "Available Storage (9.150GB)"
+          "Available Storage (15.150TB)"
         ]
       },
       options: optionsPie
